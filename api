@@ -1,6 +1,8 @@
-import  axios  from 'axios'
-const api = axios.create({
-    baseURL: 'http://localhost:3000'
-})
+ import axios from 'axios';
 
-export default api
+const api = axios.create({
+  // O Vite carrega automaticamente variáveis que começam com VITE_
+  baseURL: 'https://projeto-2-1rhm.onrender.com'
+});
+
+export default api;
