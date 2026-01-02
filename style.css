@@ -1,0 +1,92 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fafafa; /* Cor de fundo da página */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px; /* Aumentado para encorpar a interface */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* Removido background-color e border */
+    background-color: transparent; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Logo e Ícone */
+.logo-container {
+    margin-bottom: 40px;
+}
+
+.instagram-icon {
+    font-size: 80px; /* Ícone maior */
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Inputs maiores */
+input {
+    width: 100%;
+    padding: 14px; /* Aumentado o preenchimento interno */
+    margin-bottom: 12px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 1px solid #a8a8a8;
+    outline: none;
+}
+
+/* Botão Entrar */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #1877f2;
+}
+
+/* Link Esqueceu a Senha */
+.forgot-password {
+    display: block;
+    width: 100%;
+    text-align: center; 
+    font-size: 14px;
+    color: #00376b;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
