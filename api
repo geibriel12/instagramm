@@ -2,7 +2,7 @@
 
 const api = axios.create({
   // O Vite carrega automaticamente variáveis que começam com VITE_
-  baseURL: 'https://projeto-2-1rhm.onrender.com'
+  baseURL:import.meta.env.VITE_API_URL || 'http://localhost:3000',
 });
 
 export default api;
