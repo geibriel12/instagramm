@@ -92,7 +92,7 @@ button:hover {
 }
 
  .logo-container img {
-    width: 175px; /* Altere de 20px para 175px ou o tamanho que preferir */
+    width: 120px; /* Altere de 20px para 175px ou o tamanho que preferir */
     height: auto; /* Mantém a proporção da imagem */
     margin-top: 20px; /* Opcional: adiciona um espaço acima da logo */
     margin-bottom: 20px; /* Opcional: adiciona um espaço abaixo da logo */
