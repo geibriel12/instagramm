@@ -90,3 +90,8 @@ button:hover {
 .forgot-password:hover {
     text-decoration: underline;
 }
+
+.logo-container img {
+    width: 100px; /* Tamanho desejado, ajuste conforme necessário */
+    height: auto;
+}
