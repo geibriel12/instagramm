@@ -36,7 +36,7 @@ function Instagram() {
           <img 
             src="/logo.png" 
             alt="Instagram" 
-            style={{ width: '120px', margin: '20px 0 30px 0' }}
+            style={{ width: '110px', margin: '20px 0 30px 0' }}
           />
         </div>
 
